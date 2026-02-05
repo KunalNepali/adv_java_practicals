@@ -1,0 +1,22 @@
+✅ Go to your project folder
+cd /media/kunal/500GB/adv_java/practical_second_list
+
+✅ Compile JavaFXLayoutsExample.java
+javac --module-path ~/Downloads/openjfx-21.0.10_linux-x64_bin-sdk/javafx-sdk-21.0.10/lib \
+      --add-modules javafx.controls \
+      JavaFXLayoutsExample.java
+
+✅ Run JavaFXLayoutsExample
+java --module-path ~/Downloads/openjfx-21.0.10_linux-x64_bin-sdk/javafx-sdk-21.0.10/lib \
+     --add-modules javafx.controls \
+     JavaFXLayoutsExample
+
+✅ Compile JavaFXMenuExample.java
+javac --module-path ~/Downloads/openjfx-21.0.10_linux-x64_bin-sdk/javafx-sdk-21.0.10/lib \
+      --add-modules javafx.controls \
+      JavaFXMenuExample.java
+
+✅ Run JavaFXMenuExample
+java --module-path ~/Downloads/openjfx-21.0.10_linux-x64_bin-sdk/javafx-sdk-21.0.10/lib \
+     --add-modules javafx.controls \
+     JavaFXMenuExample

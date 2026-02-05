@@ -1,0 +1,113 @@
+Practical Questions: Don’t copy from notes, do yourself with different names and variables or
+approaches.
+1. Write a program for JTree and JTable.
+
+TreeAndTableExample.java
+
+2. Write a program to implement the JProgressBar with Event Handling .
+ProgressBarExample.java
+
+3. Write a program to create Own Exceptions(Custom Exceptions).
+
+CustomExceptionDemo.java
+
+4. Write a program to handle the ChangeEvents in JSliders.
+
+JSliderChangeEventExample.java
+
+5. Write a program to implement the Menus in swing.
+
+SwingMenuExample.java
+
+
+6. Write a program to implement all kinds of Borders.
+
+BordersExample.java
+
+7. Write a program to handle KeyEvent using KeyListener interface.
+
+KeyListenerExample.java
+
+
+8. Write a program to handle the Mouse events using MouseAdapter Class.
+
+MouseAdapterExample.java
+
+
+
+9. Write a program to handle focus Events using FocusListener interface.
+
+FocusListenerExample.java
+
+10. Write a program to save the information Firstname, Lastname and ContactNumber in a
+database.
+
+SaveDataToDatabase.java
+
+
+11. Write a program to update and delete the row data in database table using PreparedStatement.
+UpdateAndDeleteData.java
+
+12. Write a program to implement the additional properties of ResultSet.
+ResultSetExample.java
+
+
+13. Write a program for Transaction.
+TransactionExample.java
+
+14. Write a client and server programs using TCP and UDP.
+TCPServer.java
+TCPServer.client
+
+15. Write a JavaFX program to implement the all types of layouts/roots.
+JavaFXLayoutsExample.java
+
+16. Write a JavaFX program to implement the menu.
+JavaFXMenuExample.java
+
+17. Write a program to save cookies using Servlet and JSP.
+
+showCookie.jsp
+SetCookieServlet.java
+
+/home/kunal/Downloads/apache-tomcat-10.1.52/bin/shutdown.sh
+/home/kunal/Downloads/apache-tomcat-10.1.52/bin/startup.sh
+http://localhost:8080/practical_second_list/SetCookieServlet
+
+18. Write a program to print “Hello Friends” twenty times using JSP.:
+
+HelloFriends20.jsp
+
+Commands to run:
+/home/kunal/Downloads/apache-tomcat-10.1.52/bin/shutdown.sh
+/home/kunal/Downloads/apache-tomcat-10.1.52/bin/startup.sh
+http://localhost:8080/practical_second_list/HelloFriends20.jsp
+
+19. Write a program to display the database table’s complete data (at least ten row data) in a html
+table using jsp.
+displayTable.jsp
+mysql Pw: I@mkunal123
+
+cp ~/Downloads/mysql-connector-j-8.1.0/mysql-connector-j-8.1.0.jar \
+   /home/kunal/Downloads/apache-tomcat-10.1.52/lib/
+/home/kunal/Downloads/apache-tomcat-10.1.52/bin/shutdown.sh
+/home/kunal/Downloads/apache-tomcat-10.1.52/bin/startup.sh
+
+http://localhost:8080/practical_second_list/displayTable.jsp
+
+20. Write a program to implement Session Handling in servlet and JSP.
+showSession.jsp
+SessionServlet.java
+
+/home/kunal/Downloads/apache-tomcat-10.1.52/bin/shutdown.sh
+/home/kunal/Downloads/apache-tomcat-10.1.52/bin/startup.sh
+http://localhost:8080/practical_second_list/showSession.jsp
+
+21. Write a program to implement the concept of RMI(Remote Method Invocation)
+Hello.java
+HelloClient.java
+HelloServer.java
+
+javac Hello.java HelloServer.java HelloClient.java
+java HelloServer
+java HelloClient
