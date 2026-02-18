@@ -1,4 +1,5 @@
 package choiceComponents;
+import java.awt.Color;
 import java.awt.GridLayout;
 import javax.swing.ButtonGroup;
 import javax.swing.JCheckBox;
@@ -6,6 +7,7 @@ import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JList;
+import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 
 public class RadioCheckComboList extends JFrame{
@@ -14,6 +16,7 @@ public class RadioCheckComboList extends JFrame{
 	JCheckBox csit, bca, bbm;
 	JComboBox<String> colleges;
 	JList<String> countries;
+	JPanel panel;
 	ButtonGroup group;
 
 	public RadioCheckComboList() {
@@ -45,6 +48,11 @@ public class RadioCheckComboList extends JFrame{
 		setSize(500, 300);
 		setLayout(new GridLayout(4, 3, 8, 8));
 		//Addition of components to JFrame
+		panel = new JPanel();
+		panel.setLayout(new GridLayout(3,4,8,8));
+		panel.setBackground(Color.green);
+		add(panel);
+
 		//gennder
 		add(genderlbl);
 		add(male);
