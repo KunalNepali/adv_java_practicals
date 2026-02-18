@@ -21,6 +21,10 @@ public class JSliderDemonstation extends JFrame {
 	};
 	slider = new JSlider(JSlider.HORIZONTAL, 20 , 1 , 100);
 	slider.addChangeListener(listener);
+	slider.setPaintLabels(true);
+	slider.setMajorTickSpacing(20);
+	slider.setMinorTickSpacing(5);
+	slider.setPaintTicks(true);
 //	valuetxt = new JTextField(20);
 //	slider = new JSlider();
 	add(slider, BorderLayout.NORTH);
@@ -31,8 +35,7 @@ public class JSliderDemonstation extends JFrame {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		new JSliderDemonstation();
 	}
 
 }
