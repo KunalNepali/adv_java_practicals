@@ -19,8 +19,8 @@ public class JSliderDemonstation extends JFrame {
 		valuetxt.setText(String.valueOf(sl.getValue()));
 	}	
 	};
-	slider = new JSlider();
-	slider.addChangedListener(listener);
+	slider = new JSlider(JSlider.HORIZONTAL, 20 , 1 , 100);
+	slider.addChangeListener(listener);
 //	valuetxt = new JTextField(20);
 //	slider = new JSlider();
 	add(slider, BorderLayout.NORTH);
